@@ -8,7 +8,7 @@
 </head>
 <body>
     <div id="app">
-        <!-- Conteneur principal -->
+        <!-- Bouton réglages -->
         <header>
             <div id="settings">
                 <button id="settings-btn">⚙️</button>
@@ -16,9 +16,9 @@
             <img src="images/logo.png" alt="Logo de la compagnie" id="logo">
         </header>
 
-        <!-- Zone pour les résultats -->
+        <!-- Conteneur pour le scanner QR code -->
         <div id="qr-reader-container" style="display: none;">
-            <div id="qr-reader"></div>
+            <div id="qr-reader" style="width: 300px; height: 300px;"></div>
             <div id="qr-result" style="margin-top: 10px; color: #007BFF; font-weight: bold;"></div>
             <button id="stop-scan">✖️ Arrêter le scan</button>
         </div>
