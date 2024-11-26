@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Application PWA</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/html5-qrcode/html5-qrcode.min.js"></script>
+
 </head>
 <body>
     <div id="app">
@@ -25,6 +27,14 @@
 
         <!-- Zone pour afficher les options du serveur -->
         <div id="server-options"></div>
+        
+        <div id="qr-reader-container" style="display: none;">
+            <div id="qr-reader"></div>
+            <div id="qr-result" style="margin-top: 10px; color: #007BFF; font-weight: bold;"></div>
+            <button id="stop-scan">✖️ Arrêter le scan</button>
+        </div>
+        
+        
     </div>
 
     <script src="app.js"></script>
