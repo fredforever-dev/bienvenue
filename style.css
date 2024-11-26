@@ -3,21 +3,33 @@ body {
     text-align: center;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #f9f9f9;
 }
 
-#app {
-    margin-top: 50px;
+#settings {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+#settings-btn {
+    font-size: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
 }
 
 #logo {
-    width: 150px;
-    margin-bottom: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 300px;
+    display: block;
 }
 
-#welcome-btn {
-    padding: 10px 20px;
-    font-size: 18px;
+button {
+    margin: 10px;
+    padding: 15px 20px;
+    font-size: 16px;
     background-color: #007BFF;
     color: white;
     border: none;
@@ -25,17 +37,10 @@ body {
     cursor: pointer;
 }
 
-#welcome-btn:hover {
+button:hover {
     background-color: #0056b3;
 }
 
-#camera {
-    display: none;
+#server-options {
     margin-top: 20px;
-}
-
-#photo-canvas {
-    display: none;
-    margin-top: 20px;
-    border: 1px solid #ccc;
 }

@@ -3,16 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bienvenue</title>
+    <title>Application PWA</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="app">
+        <!-- Bouton réglages en haut à droite -->
+        <div id="settings">
+            <button id="settings-btn">
+                ⚙️
+            </button>
+        </div>
+
+        <!-- Logo de la compagnie -->
         <img src="images/logo.png" alt="Logo de la compagnie" id="logo">
-        <button id="welcome-btn">Bienvenue</button>
-        <video id="camera" autoplay></video>
-        <canvas id="photo-canvas"></canvas>
+
+        <!-- Boutons principaux -->
+        <button id="take-photo">📷 Prendre une photo</button>
+        <button id="select-photo">📂 Sélectionner une ou plusieurs photos</button>
+        <button id="send-files">📤 Transmettre</button>
+
+        <!-- Zone pour afficher les options du serveur -->
+        <div id="server-options"></div>
     </div>
+
     <script src="app.js"></script>
 </body>
 </html>
