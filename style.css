@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+#app {
+    margin-top: 50px;
+}
+
+#logo {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+#welcome-btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#welcome-btn:hover {
+    background-color: #0056b3;
+}
+
+#camera {
+    display: none;
+    margin-top: 20px;
+}
+
+#photo-canvas {
+    display: none;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}
