@@ -89,3 +89,6 @@ document.getElementById("send-files").addEventListener("click", () => {
     const serverAddress = localStorage.getItem("server_address");
     alert(`Les fichiers seront transmis à : ${serverAddress}`);
 });
+
+document.getElementById("settings-btn").addEventListener("click", startQrScanner);
+
