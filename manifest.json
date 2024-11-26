@@ -1,6 +1,6 @@
 {
-    "name": "Bienvenue",
-    "short_name": "Bienvenue",
+    "name": "Bienvenux à Dematflux",
+    "short_name": "Bienvenux à Dematflux",
     "start_url": "./index.html",
     "display": "standalone",
     "background_color": "#f4f4f4",
